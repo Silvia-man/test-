@@ -11,9 +11,8 @@
 #include<malloc.h>
 
 int jiaoJi(int* a1, int *a2, int* a3, int n1, int n2);
-
 int main(){
-	int n1 = 0, n2 = 0, i, sum;
+	int n1 = 0, n2 = 0, i, sum = 0;
 	int *a1, *a2, *a3;
 	
 	printf("ÇëÊäÈëµÚÒ»¸öÊý×éµÄ³¤¶È£º");
@@ -35,19 +34,17 @@ int main(){
 	printf("\nÕâÁ½¸öÔªËØµÄ½»¼¯Îª£º\n");
 	if (n1 > n2){
 		a3 = (int *)malloc(n1 * sizeof(int));   
-		sum = jiaoJi(a1, a2, a3, n1, n2);
-		for(i = 0; i < sum; i++){
-			printf("%d ", *(a3+i));		
-		}  
+		sum = jiaoJi(a1, a2, a3, n1, n2); 
 		
 	}else{
 		a3 = (int *)malloc(n2 * sizeof(int));   
 		sum = jiaoJi(a2, a1, a3, n2, n1);
-//		printf("sum:%d\n", sum);
-		for(i = 0; i < sum; i++){
-			printf("%d ", *(a3+i));		
-		}
+//		printf("sum:%d\n", sum);		
 	}
+	for(i = 0; i < sum; i++){
+		printf("%d ", *(a3+i));		
+	}
+		
 	return 0;
 }
 
@@ -61,12 +58,12 @@ int jiaoJi(int* a1, int *a2, int* a3, int n1, int n2){	//a1ÊÇ×î³¤µÄÊý×é£¬n1ÊÇËü¶
 						flag = 0;						 
 						break;
 					}
-				}
-				if(flag){		
-					*(a3+sum) = *(a1+i);
-					sum++;
-					break;
-				}	
+				}				
+			}
+			if(flag){		
+				*(a3+sum) = *(a1+i);
+				sum++;
+				break;
 			}	
 		}
 	}	
