@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T06:52:40.881Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="FQtlmMvDo8DkUlO6d4HE" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-18T07:08:04.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="QdUwX2j4uL37kdx9feJk" version="22.1.11" type="github">
   <diagram name="第 1 页" id="4MuG9dcFZqFzsOZIaR-n">
     <mxGraphModel dx="1193" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-VNiIBmOScgsrfv-4Jjd-1" value="现有可用数据集的收集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-VNiIBmOScgsrfv-4Jjd-1" value="NIR-VIS域数据集的收集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="170" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-VNiIBmOScgsrfv-4Jjd-3" value="有情感标注的近红外面部表情数据集&lt;span style=&quot;font-size:12.0pt;mso-bidi-font-size:14.0pt;&lt;br/&gt;font-family:宋体&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="120" width="200" height="40" as="geometry" />
+          <mxGeometry x="60" y="130" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-VNiIBmOScgsrfv-4Jjd-4" value="无情感标注的近红外人脸数据集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="170" width="200" height="40" as="geometry" />
+          <mxGeometry x="60" y="180" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-VNiIBmOScgsrfv-4Jjd-5" value="有情感标注的可见光面部表情数据集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="220" width="200" height="40" as="geometry" />
+          <mxGeometry x="490" y="170" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-VNiIBmOScgsrfv-4Jjd-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="100" as="sourcePoint" />
-            <mxPoint x="280" y="290" as="targetPoint" />
+            <mxPoint x="280" y="250" as="targetPoint" />
             <Array as="points">
               <mxPoint x="280" y="100" />
             </Array>
@@ -27,10 +27,10 @@
         </mxCell>
         <mxCell id="-VNiIBmOScgsrfv-4Jjd-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="290" as="sourcePoint" />
+            <mxPoint x="270" y="250" as="sourcePoint" />
             <mxPoint x="40" y="100" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="40" y="290" />
+              <mxPoint x="40" y="250" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -39,6 +39,30 @@
             <mxPoint x="280" y="195" as="sourcePoint" />
             <mxPoint x="330" y="150" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-VNiIBmOScgsrfv-4Jjd-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="-VNiIBmOScgsrfv-4Jjd-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="220" as="sourcePoint" />
+            <mxPoint x="390" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VNiIBmOScgsrfv-4Jjd-13" value="基于GAN的近红外人脸图像生成方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNiIBmOScgsrfv-4Jjd-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="220" as="sourcePoint" />
+            <mxPoint x="590" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VNiIBmOScgsrfv-4Jjd-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-VNiIBmOScgsrfv-4Jjd-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="390" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VNiIBmOScgsrfv-4Jjd-16" value="从大量VIS域数据集重建NIR人脸图像" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="380" width="410" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
