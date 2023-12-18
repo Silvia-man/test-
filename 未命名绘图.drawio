@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T07:23:27.966Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="buTnmfRy0gbt2cGH0HKk" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-18T07:27:44.191Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="ftD87z0HBNiJl1W_64F-" version="22.1.11" type="github">
   <diagram name="第 1 页" id="4MuG9dcFZqFzsOZIaR-n">
     <mxGraphModel dx="1193" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
         <mxCell id="-VNiIBmOScgsrfv-4Jjd-19" value="基于GAN的近红外人脸图像生成方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="285" y="280" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="-VNiIBmOScgsrfv-4Jjd-20" value="基于自适应权重的面部表情识别方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-VNiIBmOScgsrfv-4Jjd-20" value="基于动态区域感知网络的面部表情识别方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="285" y="450" width="405" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-VNiIBmOScgsrfv-4Jjd-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-VNiIBmOScgsrfv-4Jjd-19">
@@ -88,6 +88,12 @@
             <mxPoint x="490" y="500" as="sourcePoint" />
             <mxPoint x="490" y="540" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-VNiIBmOScgsrfv-4Jjd-29" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNiIBmOScgsrfv-4Jjd-30" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="640" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
